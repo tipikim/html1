@@ -1,0 +1,95 @@
+codeacademy.com
+
+
+
+
+
+문법을 tag라고 한다.
+
+
+
+1. bold
+
+<strong> creating web pages</strong>
+
+2. Underline
+
+<u> web </u>
+
+3. headline
+
+<h1> </h1> ~ <h6> </h6>
+
+4. New Line(줄바꿈)
+
+<br>
+열리는 태그 닫히는 태그가 따로 없다.
+
+5. 단락 표시 -> 정해진 여백 만큼 만 띄워쓰기 한다.
+
+<p> ~ </p>
+
+6. 이미지 삽입
+<img src"위치" width="400px">
+
+넓이 400 px
+
+7. 목차
+<ul>
+
+ <li> 내용 </li>
+
+</ul>
+
+li 코드는 <Ul>을 반드시 Parents로 가져간다.
+
+
+ul 대신 ol을 넣으면 숫자가 자동으로 넘버링 된다.
+
+ul= unordered list
+ol= ordered list
+
+
+8. 표
+
+<table>
+<tr>
+<td>
+
+로 구성된다.
+
+9. 제목
+<tilte> ~</title>
+
+
+10. 태그안의 문자를 utf-8 형식으로 만들기
+
+<meta charset="utf-8">
+
+charicter set을 
+
+
+11. 9번과 10번은 본문을 설명하는 기능이다.
+
+12. 본문은 <body> ~ </body> 로 묶고, 11번은 Head로 묶는다. 
+
+
+
+13. 전형적인 구조는 하기
+
+<!doctype html>
+<html>
+ <head>
+
+ </head>
+ <body>
+ </body>
+<html>
+
+
+14. 링크
+
+<a> <- anchor
+
+
+<a href="주소" target="_blank" title =" ~ "> ~</a>
