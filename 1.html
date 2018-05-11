@@ -3,26 +3,134 @@
 <head>
 <title>Web1-html</title>
 <meta charset="utf-8">
+<style>
+
+body{
+  margin:0px;
+}
+  #active{
+    color:red;
+  }
+  
+  a{
+    color:black;
+    text-decoration:none;
+  }
+  .saw{
+    color:gray;
+  }
+  .actvie{
+    color:red;
+  }
+    h1{
+      font-size: 40pt;
+      text-align: center;
+      border-bottom: 3px solid grey;
+      padding :20px;
+      margin:0px;
+    }
+
+    ol{
+      border-right: 3px solid grey;
+      width :250px;
+      
+      margin:0px;
+      padding :25px;
+      
+    }
+#grid{
+  display: grid;
+  grid-template-columns: 350px 1fr
+  
+}
+
+
+
+/*
+width : 250px;
+      padding : 4px;
+      margin:0px;
+
+*/
+
+
+</style>
+
+
 </head>
 <body>
   <h1><a href="index.html">Web</a></h1>
+   <div id="grid">
+  <div>
+<ol>
+  <li><a href="1.html"class="saw">HTML</a></Li>
+  <li><a href="2.html"class="saw" id="active">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+</div>
+<!--
+<h1><a href="index.html"><font color="red">Web</font></a></h1>
 <ul>
   <li><a href="1.html">1.HTML</a></Li>
   <li><a href="2.html">2.CSS</a></li>
   <li><a href="3.html">3.JavaScript</a></li>
 </ul>
-<ol>
+
+
+<ul>
   <li>egoing</li>
   <li>k8805</li>
   <li>youbinn</li>
-</ol>
-<h2>HTML</h2>
-<p><a href="http://www.w3.org/TR/2010/WD-html5-20100624/"target="_blank"title="html5 에대해">Hypertext Markup Language(HTML)</a>is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+</ul>
+
+ol ,- 숫자 자동 설정, ul 그냥 목차
+
+-->
+ <div>
+  <h2>HTML</h2>
+
+ <P><iframe width="560" height="315" src="https://www.youtube.com/embed/QzwhWEC_dEM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></P>
+ <p><a href="http://www.w3.org/TR/2010/WD-html5-20100624/"target="_blank"title="html5 에대해">Hypertext Markup Language(HTML)</a>is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
 With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.[4]</p>
 <img src="80015.jpg" width= "400px">
 <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.</p>
 <p>HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.HTML elements are the building blocks of HTML pages.</p>
 <p>With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
-<p>HTML elements are delineated by tags, written using angle brackets. Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.</p>
+<p>HTML elements are delineated by tags, written using angle brackets. 
+  <br>Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as surround and provide information about document text and may include other tags as sub-elements. 
+  <br>Browsers do not display the HTML tags, but use them to interpret the content of the page.HTML can embed programs written in a scripting language such as JavaScript, 
+  <br>which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), 
+  <br>maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.</p>
+<P>
+</div>
+
+</div>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-f1jr4viqjs.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+</P>
+
 </body>
+
 <html>
